@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+}
+header{
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: black;
+}
+header .header-contain{
+    display: flex;
+    padding: 6px;
+}
+.header-spiker{
+    height: 25px;
+    line-height: 25px;
+    background-color: #4A4A4A;
+    border-radius: 4px;
+    padding-right: 5px;
+}
+header .fas{
+    height: 25px;
+    line-height: 25px;
+    background-color: #4A4A4A;
+    padding-bottom: 3px;
+    padding: 0 4px;
+    border-radius: 4px;
+}
+header .arrow{
+    margin-left: 4px;
+}
