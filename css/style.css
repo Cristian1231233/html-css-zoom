@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    
+    background-color: black;
 }
 header{
     display: flex;
@@ -25,6 +25,7 @@ header .header-contain{
     background-color: #4A4A4A;
     border-radius: 4px;
     padding-right: 5px;
+    cursor: pointer;
 }
 header .fas{
     height: 25px;
@@ -33,7 +34,98 @@ header .fas{
     padding-bottom: 3px;
     padding: 0 4px;
     border-radius: 4px;
+    cursor: pointer;
 }
 header .arrow{
     margin-left: 4px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 95%;
+    height: calc(100vh - 60px);
+    background-color: black;
+    margin: 0 auto;
+    padding-top: 70px;
+    overflow: auto;
+}
+.container .image{
+    width: 170px;
+    height: 100px;
+    background-image: url('https://www.placecage.com/640/360');
+    background-size: 200px;
+    margin-bottom: 3px;
+    position: relative;
+}
+.info-image{
+    color: white;
+    font-size: 11px;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .4);
+    padding: 5px;
+}
+img{
+    width: 100%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: #222222;
+}
+.footer-left{
+    display: flex;
+    align-items: center;
+    width: 12%;
+    text-align: center;
+    padding-left: 10px;
+}
+.footer-left ul{
+    display: flex;
+    list-style: none;
+}
+.footer-left ul li{
+    padding-right: 4px;
+    cursor: pointer;
+}
+.fa-microphone, .fa-video{
+    font-size: 23px;
+}
+.fa-angle-up{
+    font-size: 10px;
+    padding: 15px 5px;
+}
+.footer-center{
+    width: 58%;
+    text-align: center;
+}
+.footer-center ul{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+    list-style: none;
+}
+.symbol{
+    font-size: 23px;
+}
+.active:active{
+    color: rgb(27, 223, 27);
+}
+.footer-center ul li{
+    padding-right: 18px;
+    cursor: pointer;
+}
+
+.footer-right{
+    font-size: 13px;
+    line-height: 60px;
+    color: red;
+    background-color: #4A4A4A;
+    padding: 0 15px;
+    cursor: pointer;
 }
