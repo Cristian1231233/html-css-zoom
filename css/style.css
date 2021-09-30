@@ -9,7 +9,6 @@ body{
 header{
     display: flex;
     justify-content: flex-end;
-    position: fixed;
     width: 100%;
     height: 60px;
     color: white;
@@ -44,10 +43,9 @@ header .arrow{
     justify-content: space-around;
     flex-wrap: wrap;
     width: 95%;
-    height: calc(100vh - 60px);
+    height: 537px;
     background-color: black;
     margin: 0 auto;
-    padding-top: 70px;
     overflow: auto;
 }
 .container .image{
@@ -55,7 +53,7 @@ header .arrow{
     height: 100px;
     background-image: url('https://www.placecage.com/640/360');
     background-size: 200px;
-    margin-bottom: 3px;
+    margin: 2px;
     position: relative;
 }
 .info-image{
